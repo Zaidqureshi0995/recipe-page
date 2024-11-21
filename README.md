@@ -16,6 +16,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 - [Author](#author)
 
 ## Overview
+This challenge was to build a recipe page, with a focus on semantic HTML5.
 
 ### Screenshot
 
