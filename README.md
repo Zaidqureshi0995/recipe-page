@@ -19,7 +19,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Screenshot
 
-![](\assets\images)
+![](\assets\images\site-preview.jpg)
 
 ### Links
 
