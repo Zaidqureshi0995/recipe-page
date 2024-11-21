@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Outfit", serif;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.content{
+    color: hsl(30, 10%, 34%);
+}
+
+.recipe{
+    width: 100%;
+    padding: 5vh 3vh;
+}
+
+.recipe h1{
+    font-family: "Young Serif", serif;
+    color: hsl(24, 5%, 18%);
+    font-size: 38px;
+    line-height: 1;
+}
+
+.recipe h3{
+    font-size: 18px;
+    color: hsl(332, 51%, 32%)
+}
+
+.prep-time{
+    margin: 0 1vh;
+    padding: 25px 25px;
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 10px;
+}
+
+.prep-time ul{
+   margin-top: 10px;
+}
+
+hr{
+    color: hsl(30, 54%, 90%);
+}
+
+.recipe table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.recipe table tbody td:nth-child(2){
+    color: hsl(14, 45%, 36%);
+}
+
+.recipe table tbody tr:last-child{
+    border-bottom: hidden;
+}
+
+.recipe table tbody td{
+    padding: 5% 10% 5% 10%;
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+.attribution{
+    text-align: center;
+    font-size: 13px;
+    margin: 40px;
+}
+
+.attribution a{
+    text-decoration: none;
+    color: hsl(14, 45%, 36%);
+}
+
+.attribution a:hover{
+    color: hsl(14, 43%, 46%);
+}
+
+li{
+    margin: 40px 25px;
+    padding-left: 10px;
+}
+
+h2{
+    font-family: "Young Serif", serif;
+    font-weight: 300;
+    color: hsl(14, 45%, 36%);
+    font-size: 35px;
+}
+
+p{
+    margin: 20px 0;
+    font-size: 17px;
+}
+
+li::marker{
+    color: hsl(332, 51%, 32%);
+}
+
+/* responsive */
+@media (min-width: 767px){
+    body{
+        width: 50%;
+        background-color: hsl(327, 91%, 96%);
+        margin: auto;
+        padding: 5% 0;
+    }
+
+    .container{
+        background-color: #fff;
+        padding: 4% 4% 0 ;
+        border-radius: 35px;
+    }
+
+    .container .image img {
+        border-radius: 25px;
+    }
+
+    .container .recipe h1{
+        font-size: 45px;
+    } 
+}
